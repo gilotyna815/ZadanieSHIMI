@@ -1225,3 +1225,218 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.17-23.58.16:824][  0]LogAssetRegistry: Asset discovery search completed in 8.8430 seconds
 [2022.01.17-23.58.16:830][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
 [2022.01.17-23.58.16:831][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.01.17-23.59.55:177][353]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.17-23.59.55:209][353]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.17-23.59.55:737][353]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 126 classes and 0 folders.
+[2022.01.17-23.59.57:764][353]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.17-23.59.58:086][354]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.01.18-00.00.19:819][439]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2022.01.18-00.00.21:173][518]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.18-00.00.21:179][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.18-00.00.21:180][518]PIE: New page: PIE session: FirstPersonExampleMap (18 Jan 2022, 02:00:21)
+[2022.01.18-00.00.21:182][518]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.01.18-00.00.21:184][518]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.01.18-00.00.21:184][518]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.18-00.00.21:200][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016129s)
+[2022.01.18-00.00.21:202][518]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.18-00.00.21:202][518]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2022.01.18-00.00.21:202][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018149s)
+[2022.01.18-00.00.21:228][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.01.18-00.00.21:233][518]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.18-00.00.21:233][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.18-00.00.21:233][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.18-00.00.21:234][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.18-00.00.21:234][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.18-00.00.21:234][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.18-00.00.21:234][518]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 1: FrontRight
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 4: BackLeft
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 5: BackRight
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 6: SideLeft
+[2022.01.18-00.00.21:241][518]LogAudioMixer: Display: 7: SideRight
+[2022.01.18-00.00.21:287][518]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.18-00.00.21:287][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.18-00.00.21:287][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.18-00.00.21:288][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.18-00.00.21:288][518]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.18-00.00.21:288][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.18-00.00.21:288][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.18-00.00.21:289][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.18-00.00.21:289][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.18-00.00.21:289][518]LogInit: FAudioDevice initialized.
+[2022.01.18-00.00.21:289][518]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonExampleMap'.
+[2022.01.18-00.00.21:300][518]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.18-00.00.21:303][518]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.01.18-01.00.21
+[2022.01.18-00.00.21:304][518]LogWorld: Bringing up level for play took: 0.002073
+[2022.01.18-00.00.21:304][518]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.01.18-00.00.21:317][518]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.01.18-00.00.21:318][518]PIE: Server logged in
+[2022.01.18-00.00.21:320][518]PIE: Play in editor total start time 0.142 seconds.
+[2022.01.18-00.00.30:745][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.18-00.00.30:745][994]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.18-00.00.30:745][994]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.18-00.00.30:745][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.18-00.00.30:756][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.18-00.00.30:762][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.18-00.00.30:795][994]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.18-00.00.30:795][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.18-00.00.30:797][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.18-00.00.30:822][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.18-00.00.30:848][994]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2022.01.18-00.00.30:866][995]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.01.18-00.01.53:168][568]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.18-00.01.53:251][568]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.01.18-00.01.54:145][599]LogSavePackage: Moving '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Saved/FirstPersonCharacter9B692A9E40807EBD98382199BDBEC14A.tmp' to '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.18-00.01.54:163][599]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.18-00.01.54:163][599]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.18-00.02.01:799][ 29]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2022.01.18-00.02.27:500][442]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_36 via property FP_Gun, but TRASH_SkeletalMeshComponent_36 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.27:502][442]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.27:504][442]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_28 via property FP_Gun, but TRASH_SkeletalMeshComponent_28 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.27:524][442]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.28:924][511]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_36 via property FP_Gun, but TRASH_SkeletalMeshComponent_36 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.28:929][511]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.28:934][511]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_28 via property FP_Gun, but TRASH_SkeletalMeshComponent_28 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.28:964][511]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.32:704][722]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_36 via property FP_Gun, but TRASH_SkeletalMeshComponent_36 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.32:707][722]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.32:710][722]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_28 via property FP_Gun, but TRASH_SkeletalMeshComponent_28 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.32:741][722]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.33:714][771]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_36 via property FP_Gun, but TRASH_SkeletalMeshComponent_36 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.33:717][771]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.33:719][771]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_28 via property FP_Gun, but TRASH_SkeletalMeshComponent_28 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.33:737][771]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.36:240][902]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_36 via property FP_Gun, but TRASH_SkeletalMeshComponent_36 is pending kill
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.36:242][902]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.36:243][902]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_28 via property FP_Gun, but TRASH_SkeletalMeshComponent_28 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.36:260][902]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_57 via property FP_Gun, but TRASH_SkeletalMeshComponent_57 is pending kill
+	FirstPersonCharacter_C /Engine/Transient.World_3:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:0017
+[2022.01.18-00.02.43:871][341]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.18-00.02.43:878][341]LogBlueprint: Error: [AssetLog] C:\Users\gilotyna\source\repos\ZadanieSHIMI\MinionsAndContainers\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.01.18-00.02.43:879][341]LogBlueprint: Error: [AssetLog] C:\Users\gilotyna\source\repos\ZadanieSHIMI\MinionsAndContainers\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.01.18-00.02.43:879][341]LogBlueprint: Error: [AssetLog] C:\Users\gilotyna\source\repos\ZadanieSHIMI\MinionsAndContainers\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.01.18-00.02.43:957][341]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2022.01.18-00.02.44:004][341]LogSlate: Took 0.010699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.01.18-00.02.45:060][394]LogSavePackage: Moving '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Saved/FirstPersonCharacter8330ACDC4BFF9FF53E67ED9805C3A57A.tmp' to '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.18-00.02.45:144][394]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.18-00.02.45:144][394]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.18-00.04.27:952][ 94]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.18-00.04.27:959][ 94]LogBlueprint: Error: [AssetLog] C:\Users\gilotyna\source\repos\ZadanieSHIMI\MinionsAndContainers\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.01.18-00.04.28:023][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2022.01.18-00.04.28:743][129]LogSavePackage: Moving '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Saved/FirstPersonCharacter8D642D8741A2112EA6E8E89D9FC4E0E0.tmp' to '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.18-00.04.28:844][129]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.18-00.04.28:844][129]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.18-00.04.34:924][476]BlueprintLog: New page: Compile FirstPersonCharacter
+[2022.01.18-00.04.34:977][476]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2022.01.18-00.04.35:557][505]LogSavePackage: Moving '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Saved/FirstPersonCharacter4DFBE6FA48997F6C53FB80851663D0F8.tmp' to '../../../../../../Users/gilotyna/source/repos/ZadanieSHIMI/MinionsAndContainers/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2022.01.18-00.04.35:659][505]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2022.01.18-00.04.35:659][505]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2022.01.18-00.04.38:514][657]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.18-00.04.38:520][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.18-00.04.38:520][657]PIE: New page: PIE session: FirstPersonExampleMap (18 Jan 2022, 02:04:38)
+[2022.01.18-00.04.38:520][657]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.18-00.04.38:534][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014350s)
+[2022.01.18-00.04.38:536][657]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.18-00.04.38:537][657]LogPlayLevel: PIE: World Init took: (0.002050s)
+[2022.01.18-00.04.38:537][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016724s)
+[2022.01.18-00.04.38:571][657]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.01.18-00.04.38:572][657]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.18-00.04.38:572][657]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.18-00.04.38:572][657]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.18-00.04.38:573][657]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.01.18-00.04.38:573][657]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.01.18-00.04.38:573][657]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.01.18-00.04.38:573][657]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 1: FrontRight
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 4: BackLeft
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 5: BackRight
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 6: SideLeft
+[2022.01.18-00.04.38:580][657]LogAudioMixer: Display: 7: SideRight
+[2022.01.18-00.04.38:624][657]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.18-00.04.38:624][657]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.18-00.04.38:624][657]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.18-00.04.38:624][657]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.18-00.04.38:625][657]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.18-00.04.38:625][657]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.18-00.04.38:625][657]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.01.18-00.04.38:626][657]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.18-00.04.38:626][657]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.18-00.04.38:626][657]LogInit: FAudioDevice initialized.
+[2022.01.18-00.04.38:626][657]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2022.01.18-00.04.38:634][657]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.18-00.04.38:637][657]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2022.01.18-01.04.38
+[2022.01.18-00.04.38:637][657]LogWorld: Bringing up level for play took: 0.001318
+[2022.01.18-00.04.38:637][657]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.01.18-00.04.38:639][657]PIE: Server logged in
+[2022.01.18-00.04.38:640][657]PIE: Play in editor total start time 0.122 seconds.
+[2022.01.18-00.04.46:924][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.18-00.04.46:924][ 88]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.18-00.04.46:924][ 88]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.18-00.04.46:924][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.18-00.04.46:936][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.18-00.04.46:943][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.18-00.04.47:004][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.01.18-00.04.47:005][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.18-00.04.47:007][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.18-00.04.47:016][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.18-00.04.47:024][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2022.01.18-00.04.47:055][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.01.18-00.04.52:075][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.01.18-00.04.54:809][381]LogSlate: Window 'Delete Assets' being destroyed
